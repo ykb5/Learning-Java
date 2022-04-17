@@ -34,7 +34,7 @@ class Honda extends Bike {
 
 }
 
-public class P09_Task01_AbstractAndFinalClassInJava {
+public class P10_Task02_AbstractAndFinalClassInJava {
 
     public static void main(String[] args) {
     	

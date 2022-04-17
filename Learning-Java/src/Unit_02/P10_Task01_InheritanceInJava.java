@@ -1,6 +1,6 @@
 package Unit_02;
 
-public class P08_Task01_InheritanceInJava {
+public class P10_Task01_InheritanceInJava {
 
     public static void main(String[] args) {
 
