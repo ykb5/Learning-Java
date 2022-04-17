@@ -9,5 +9,4 @@ public class P1_FirstJavaProgramInJava {
         System.out.println("This Is My First Java Program");
 
     }
-
 }
