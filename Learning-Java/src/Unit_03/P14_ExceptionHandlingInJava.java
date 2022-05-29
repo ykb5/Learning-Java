@@ -163,3 +163,64 @@ class ABC5 {
 	}
 
 }
+
+/*
+void checkedAndUncheckedException() {
+
+	*
+	 * Unchecked Exception: Run time catching - Here we are dividing by 0 - which
+	 * will not be caught at compile time - as there is no mistake but caught at
+	 * runtime - because it is mathematically incorrect
+	 *
+	int x = 0;
+	int y = 10;
+	int z = y / x;
+
+	System.out.println(z);
+
+	// Checked Exception [Run this code over terminal and check compiler error]
+	try {
+		useOfThrow(19);
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+}
+
+void manualExceptionThrow() {
+
+	try {
+
+		// Have to use try and Catch here!
+		calculateArea(-1);
+	} catch (Exception e) {
+		System.out.println(e.getMessage());
+	}
+
+}
+
+void calculateArea(int r) throws ManualException {
+
+	if (r < 0) {
+		throw new ManualException();
+	}
+
+	int area = r * r;
+	System.out.println(area);
+
+}
+
+}
+
+@SuppressWarnings("serial")
+class ManualException extends Exception {
+
+@Override
+public String getMessage() {
+	String detailMessage = "Exception Occured!";
+	return detailMessage;
+}
+
+}
+*/
